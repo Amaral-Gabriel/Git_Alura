@@ -9,12 +9,12 @@ function exibirTextoNaTela (tag, texto) {
 }
 
 function geraNumeroAleatorio () {
-    return parseInt(Math.random() * 10 + 1);
+    return parseInt(Math.random() * 100 + 1);
 }
 
 function mensagemInicial () {
     exibirTextoNaTela("h1","Jogo do Número Secreto!");
-    exibirTextoNaTela("h2","Escolha um número entre 1 e 10:");
+    exibirTextoNaTela("h2","Escolha um número entre 1 e 100:");
 }
 
 function verificarChute () {
